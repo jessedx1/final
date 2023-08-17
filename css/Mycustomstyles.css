@@ -1,0 +1,99 @@
+
+.bgcol{ 
+    background-color:rgb(242, 226, 182);
+}
+
+.olfact{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hd1{
+    color: slategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hd2{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hd3{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hd4{
+    color: rosybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tabhed{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+}
+.tabnav{
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 10px;
+}
+.crtnav{
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: darkslateblue;
+}
+
+/*sizing divs styles */
+.com { 
+    position: absolute;
+}
+.hd{
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    height: 200px;
+    z-index: 1;
+    border-bottom: solid 1px #555555 ;
+    padding-bottom: 20px;
+}
+.lmen{
+ left: 5px;
+ top: 214px; 
+ width: 170px;
+ bottom: 64px;
+ z-index: 1;
+padding-top: 50px;
+}
+.mbod {
+left: 190px;
+top: 214px;
+padding-right: 10px;
+height: fit-content;
+width: 80%;
+Bottom:64px;
+padding-right: 5px;
+padding-top: 40px;
+}
+
+.foot {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height: 50px;
+    width:100%;
+    background:#999;
+   text-align: center;
+   padding: 10px;
+}
+.subhd {
+    float: right;
+}
+
+.res {
+    overflow: auto;
+    resize: both;
+    max-height: fit-content;
+    max-width: 100%;
+}
